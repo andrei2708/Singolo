@@ -4,7 +4,8 @@
   "description": "Empty project template",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack serve --env development",
+    "dev": "webpack --env development",
+    "devServer": "webpack serve --env development",
     "lint": "eslint src"
   },
   "author": "Andrei Pauliukovich",
