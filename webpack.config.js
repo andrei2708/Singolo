@@ -57,7 +57,10 @@ module.exports = ({ development }) => ({
     new HtmlWebpackPlugin({ template: './src/index.html' }),
     new CopyPlugin({
       patterns: [{
-        from: 'public',
+        // from: 'public',
+        // noErrorOnMissing: true,
+        from: path.resolve(__dirname, 'src/assets/images'),
+        to:   path.resolve(__dirname, 'dist/assets/images'),
         noErrorOnMissing: true,
       }],
     }),
