@@ -1,5 +1,9 @@
+@import "abstract/constants";
+
 @import "base/base";
-@import "base/constants";
 @import "base/fonts";
+
+@import "layout/header";
+@import "layout/slider";
 
 @import "vendors/normalize";

@@ -1,5 +1,6 @@
 html {
   font-size: 10px;
+  box-sizing: border-box;
 }
 
 body {
@@ -13,4 +14,22 @@ h1 {
   font-size: 2.5rem;
   line-height: 30px;
   letter-spacing: -0.03em;
+  margin: 0;
+  text-transform: uppercase;
+  color: $font-menu;
 }
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 1020px;
+  margin: auto;
+}
+
+.container {
+  width: 940px;
+  margin: auto;
+}
+
