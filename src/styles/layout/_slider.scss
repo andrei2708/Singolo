@@ -1,25 +1,27 @@
 .slider {
   
-  &__images-container {
-  }
-  
   &__cursors {
   }
-}
-.slide-pink {
-  background-color: $background-slide1;
-  padding: 54px 112px 63px;
-}
-.slide-image {
-}
-.slide-blue {
-  background-color: $background-slide2;
-  padding: 43px 383px 38px;
-  // display: none;
-  
 
+  .slide-pink {
+    background-color: $background-slide1;
+    padding: 54px 112px 63px;
+  }
+
+  .slide-blue {
+    background-color: $background-slide2;
+    padding: 43px 383px 38px;
+    // display: none;
+  }
 }
-.container {
+
+
+.slider__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.cursor {
-}
+
+
+  .cursor {
+  }
