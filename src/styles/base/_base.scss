@@ -14,9 +14,12 @@ h1 {
   font-size: 2.5rem;
   line-height: 30px;
   letter-spacing: -0.03em;
-  margin: 0;
   text-transform: uppercase;
-  color: $font-menu;
+  color: $color-font-menu;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
 }
 
 a {
@@ -33,3 +36,18 @@ a {
   margin: auto;
 }
 
+.title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: $font-size-title;
+  line-height: 36px;
+  color: $color-title;
+}
+
+.text-section {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767E9E;
+}

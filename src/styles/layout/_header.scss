@@ -12,7 +12,7 @@
 
       h1::after {
         content: '*';
-        color: $font-active;
+        color: $color-font-active;
       }
     }
     
@@ -28,7 +28,7 @@
           &:not(:last-child)::after {
             content: '•';
             margin-left: 11px;
-            color: $font-menu;
+            color: $color-font-menu;
           }
 
         }
@@ -39,7 +39,7 @@
           font-size: 1.2rem;
           line-height: 14px;
           letter-spacing: -0.035em;
-          color: $font-menu;
+          color: $color-font-menu;
           text-transform: uppercase;
         }
       }

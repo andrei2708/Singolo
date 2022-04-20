@@ -1,6 +1,20 @@
 .slider {
+  position: relative;
   
   &__cursors {
+    position: absolute;
+    top: calc(50% - 20px);
+    margin: 0 40px;
+
+    .cursor-left {
+      position: absolute;
+      left: 0;
+    }
+
+    .cursor-right {
+      position: absolute;
+      right: 0;
+    }
   }
 
   .slide-pink {
@@ -9,9 +23,13 @@
   }
 
   .slide-blue {
+    position: relative;
     background-color: $background-slide2;
     padding: 43px 383px 38px;
-    // display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
   }
 }
 
@@ -21,7 +39,3 @@
   justify-content: space-between;
   align-items: center;
 }
-
-
-  .cursor {
-  }

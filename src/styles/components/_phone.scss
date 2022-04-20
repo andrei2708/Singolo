@@ -1,0 +1,58 @@
+.phone-vertical {
+  @include size-phone(240px, 483px);
+
+  .phone {
+    @extend %phone;
+    @include size-phone(216px, 458px);
+  }
+  
+}
+
+.phone-horizontal {
+  @include size-phone(483px, 240px);
+  
+  .phone {
+    @extend %phone;
+    @include size-phone(458px, 216px);
+    background-image: url(.././assets/images/slider-images/phone-horizontal.jpg);
+  }
+  
+}
+
+.phone-vertical_blue-slide {
+  @include size-phone(255px, 513px);
+  
+
+  .phone {
+    @include size-phone(229px, 486px);
+    background-size: 100% 100%;
+    box-shadow: 26px 26px 0 rgba(0, 0, 0, .1);
+  }
+}
+
+.phone-vertical_small {
+  position: absolute;
+  @include size-phone(156px, 314px);
+  opacity: .5;
+  margin-left: -15px;
+  
+  .phone {
+    @include size-phone(140px, 297px);
+    background-size: 100% 100%;
+    box-shadow: 18px 18px 0 rgba(0, 0, 0, .1);
+
+    .display {
+      @include size-phone(122px, 216px);
+    }
+  }
+
+  &:first-child {
+    left: 266px;
+    top: calc(50% - 145px);
+  }
+
+  &:last-child {
+    right: 253px;
+    top: calc(50% - 145px);
+  }
+}

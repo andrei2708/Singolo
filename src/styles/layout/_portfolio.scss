@@ -1,0 +1,15 @@
+.portfolio {
+  padding: 59px 0 74px;
+  background-color: $background-color1;
+
+  .portfolio__title {
+    letter-spacing: -0.5px;
+    margin-bottom: 16px;
+  }
+}
+
+.pictures__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

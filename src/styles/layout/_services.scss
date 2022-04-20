@@ -1,0 +1,21 @@
+.services {
+  padding: 59px 0 46px;
+  background-color: $background-color2;
+  border-bottom: 6px solid #ffffff;
+
+  .services__title {
+    margin-bottom: 18px;
+    letter-spacing: -0.2px;
+  }
+
+  .services__text {
+    letter-spacing: 0.2px;
+    margin-bottom: 47px;
+  }
+}
+
+.items__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

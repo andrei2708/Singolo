@@ -5,9 +5,12 @@
 @import "base/base";
 @import "base/fonts";
 
-@import "components/phone.scss";
+@import "components/phone";
+@import "components/service-card";
 
 @import "layout/header";
 @import "layout/slider";
+@import "layout/services";
+@import "layout/portfolio";
 
 @import "vendors/normalize";
