@@ -1,10 +1,16 @@
 .portfolio {
-  padding: 59px 0 74px;
+  padding: 59px 0 68px;
   background-color: $background-color1;
+  border-bottom: 6px solid #323746;
 
   .portfolio__title {
     letter-spacing: -0.5px;
     margin-bottom: 16px;
+  }
+
+  .portfolio__text {
+    letter-spacing: 0.2px;
+    margin-bottom: 12px;
   }
 }
 

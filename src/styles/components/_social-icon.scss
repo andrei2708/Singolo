@@ -1,0 +1,48 @@
+.social-icon {
+  
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid $border-color-button;
+    border-radius: 50%;
+      
+   
+  }
+
+  .facebook-link {
+    transition: border $transition, box-shadow $transition;
+
+    .facebook-icon {
+      filter: drop-shadow(0 0 10px #166fe5);
+      transition: filter $transition;
+    }
+
+    .facebook-icon path {
+      transition: fill $transition;
+    }
+
+    &:hover {
+      cursor: pointer;
+      border: 1px solid #166fe5;
+      box-shadow: 0 0 10px #166fe5;
+
+    }
+
+    &:hover .facebook-icon {
+      filter: drop-shadow(0 0 10px #166fe5);
+
+    }
+
+    &:hover .facebook-icon path {
+      fill: #166fe5;
+    }
+  }
+
+  &:not(:first-child) {
+    margin-left: 9px;
+  }
+
+}

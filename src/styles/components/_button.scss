@@ -1,0 +1,24 @@
+.pictures__filter {
+
+  margin-bottom: 17px;
+
+  .filter__buttons {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 12px;
+    text-align: center;
+    color: $color-text;
+  
+    border: 1px solid $border-color-button;
+    border-radius: 5px;
+    padding: 5px 6px;
+    
+  
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
+
+  }
+
+}
