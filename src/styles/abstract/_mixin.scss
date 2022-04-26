@@ -2,3 +2,21 @@
   width: $width;
   height: $height;
 }
+
+@mixin social-icon-color ($color) {
+
+    &:hover {
+      cursor: pointer;
+      border: 1px solid $color;
+      box-shadow: 0 0 10px $color;
+    }
+
+    &:hover svg {
+      filter: drop-shadow(0 0 10px $color); 
+    }
+    
+    &:hover svg path {
+      fill: $color;
+    }
+    
+}

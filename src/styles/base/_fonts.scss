@@ -1,1 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Light'), local('Lato-Light'), url('../assets/fonts/latolight.woff2') format('woff2'), url('../assets/fonts/latolight.woff') format('woff'), url('../assets/fonts/latolight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Regular'), local('Lato-Regular'), url('../assets/fonts/latoregular.woff2') format('woff2'), url('../assets/fonts/latoregular.woff') format('woff'), url('../assets/fonts/latoregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Bold'), local('Lato-Bold'), url('../assets/fonts/latobold.woff2') format('woff2'), url('../assets/fonts/latobold.woff') format('woff'), url('../assets/fonts/latobold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Black'), local('Lato-Black'), url('../assets/fonts/latoblack.woff2') format('woff2'), url('../assets/fonts/latoblack.woff') format('woff'), url('../assets/fonts/latoblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}

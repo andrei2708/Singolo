@@ -13,12 +13,23 @@
     border: 1px solid $border-color-button;
     border-radius: 5px;
     padding: 5px 6px;
+    transition: color $transition, border $transition;
     
+    &:hover {
+      cursor: pointer;
+      color: $color-font-button-hover;
+      border: 1px solid $border-color-button-hover;
+    }
   
     &:not(:last-child) {
       margin-right: 8px;
     }
 
+  }
+
+  .button-active {
+    color: $color-font-button-active;
+    border: 1px solid $border-color-button-active;
   }
 
 }

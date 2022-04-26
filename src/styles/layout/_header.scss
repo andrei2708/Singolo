@@ -41,7 +41,19 @@
           letter-spacing: -0.035em;
           color: $color-font-menu;
           text-transform: uppercase;
+          transition: color $transition;
+
+          &:hover {
+            cursor: pointer;
+            color: $color-font-hover;
+          }
+          
         }
+
+        .link-active {
+          color: $color-font-active;
+        }
+        
       }
     }
   }

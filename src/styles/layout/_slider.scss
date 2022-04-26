@@ -7,14 +7,28 @@
     margin: 0 40px;
 
     .cursor-left {
-      position: absolute;
       left: 0;
     }
-
+    
     .cursor-right {
-      position: absolute;
       right: 0;
     }
+
+    .arrow {
+      position: absolute;
+
+      path {
+        transition: fill $transition;
+
+        &:hover {
+          cursor: pointer;
+        fill: $color-arrow-hover;
+        }
+
+      }
+
+    }
+
   }
 
   .slide-pink {
@@ -32,7 +46,6 @@
     display: none;
   }
 }
-
 
 .slider__container {
   display: flex;
