@@ -1,6 +1,11 @@
 .services__items {
   display: flex;
 
+  @include media-tablet {
+    margin-right: 33px;
+    margin-bottom: 20px;    
+   }
+
   .item__icon {
     display: flex;
     align-items: center;

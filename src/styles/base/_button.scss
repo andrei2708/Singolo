@@ -1,6 +1,10 @@
 .pictures__filter {
 
   margin-bottom: 17px;
+  
+  @include media-tablet {
+    margin-bottom: 26px; 
+   }
 
   .filter__buttons {
     font-style: normal;

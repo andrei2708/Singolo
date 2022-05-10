@@ -6,12 +6,25 @@
     top: calc(50% - 20px);
     margin: 0 40px;
 
+    @include media-mobile {
+     height: 10px;
+     top: calc(50% - 5px);
+    }
+
     .cursor-left {
       left: 0;
+
+      @include media-tablet {
+       left: -16px;
+      }
     }
     
     .cursor-right {
       right: 0;
+
+      @include media-tablet {
+        right: -16px;
+       }
     }
 
     .arrow {
@@ -34,6 +47,14 @@
   .slide-pink {
     background-color: $background-slide1;
     padding: 54px 112px 63px;
+
+    @include media-tablet {
+      padding: 41px 84px 47px;
+    }
+
+    @include media-mobile {
+      padding: 20px 42px 23px;
+    }
   }
 
   .slide-blue {

@@ -6,4 +6,13 @@
   background-repeat: no-repeat;  
   border-radius: 25px;
   box-shadow: 24px 24px 0 rgba(0, 0, 0, .1);
+
+  @include media-tablet {
+    box-shadow: 21px 19px 0 rgba(0, 0, 0, .1);
+  }
+
+  @include media-mobile {
+    border-radius: 12px;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, .1);
+  }
 }

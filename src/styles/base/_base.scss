@@ -17,6 +17,11 @@ h1 {
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: $color-font-menu;
+
+  @include media-mobile {
+    font-size: 2rem;
+    line-height: 24px;
+  }
 }
 
 h1, h2, h3, h4, p {
@@ -28,13 +33,31 @@ a {
 }
 
 .wrapper {
-  width: 1020px;
+  width: $desktop-width;
   margin: auto;
+
+  @include media-tablet {
+    width: $tablet-width;
+  }
+
+  @include media-mobile {
+    width: $mobile-width;
+  }
+  
 }
 
 .container {
   width: 940px;
   margin: auto;
+
+  @include media-tablet {
+    width: 687px;
+  }
+
+  @include media-mobile {
+    width: 314px;
+  }
+
 }
 
 .title {
