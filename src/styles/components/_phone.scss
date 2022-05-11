@@ -79,7 +79,17 @@
     @include size-phone(229px, 486px);
     background-size: 100% 100%;
     box-shadow: 26px 26px 0 rgba(0, 0, 0, .1);
+
+    @include media-tablet {
+      @include size-phone(181px, 364px);
+    }
+  
+    @include media-mobile {
+      @include size-phone(88px, 177px);
+    }
   }
+
+ 
 }
 
 .phone-vertical_small {

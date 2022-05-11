@@ -35,6 +35,7 @@ a {
 .wrapper {
   width: $desktop-width;
   margin: auto;
+  position: relative;
 
   @include media-tablet {
     width: $tablet-width;

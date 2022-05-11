@@ -7,6 +7,10 @@
     justify-content: space-between;
     align-items: center;
 
+    @include media-mobile {
+      justify-content: center;
+    }
+
     .footer__copyright {
       font-style: normal;
       font-weight: 900;
@@ -14,12 +18,20 @@
       line-height: 18px;
 
       color: $color-title;
+
+      @include media-mobile {
+        display: none;
+      }
     }
 
     .footer__social-icons {
       display: flex;
       list-style: none;
       margin: 0;
+
+      @include media-mobile {
+        padding: 0;
+      }
     }
   }
 }

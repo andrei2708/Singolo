@@ -26,6 +26,11 @@
       letter-spacing: 0;
       padding-right: 16px;
      }
+
+     @include media-mobile {
+      padding-right: 0;
+      margin-bottom: 17px;
+    }   
   }
 }
 

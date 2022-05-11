@@ -6,6 +6,10 @@
     margin-bottom: 20px;    
    }
 
+   @include media-mobile {
+      margin-bottom: 15px;
+  }
+
   .item__icon {
     display: flex;
     align-items: center;
@@ -35,6 +39,10 @@
       line-height: 18px;
       color: $color-title;
       margin-bottom: 8px;
+
+      @include media-mobile {
+        letter-spacing: 0.2px;
+    }
     }
 
     .item__text {
@@ -44,6 +52,7 @@
       line-height: 22px;
       // text-align: justify;
       color: $color-text;
+
     }
   }
 }
